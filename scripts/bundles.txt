@@ -1,0 +1,55 @@
+# ecx client configuration utility.
+# https://github.com/ayunami2000/ayunEaglerConfig main
+
+# videos and moving images need CORS, static images do not.
+# https://github.com/ayunami2000/ayunEagVidMap main
+
+# Forward either way your ec server!
+# https://github.com/ayunami2000/Ealgercraft-fwd master
+
+# ecx replit archive
+# https://github.com/ayunami2000/eaglercraftx-replit main
+
+# TotalFreedomMod but for 1.5.2, primarily designed for EaglerCraft servers to use.
+# https://github.com/ayunami2000/EaglerFreedomMod main
+
+
+
+# ec-22w43a (Minecraft 1.5.2) custom fork which contains full git log
+# https://framagit.org/zqpvr/eaglercraft-fork main
+
+
+
+# eaglercraft1.5.2-final (Repository unavailable due to DMCA takedown.)
+# https://github.com/eaglerarchive/eaglercraft1.5.2-final main
+# https://github.com/enten-mirrors/ecx main
+
+# Tools to build ecx 1.8
+https://github.com/eaglerarchive/eaglercraftx-1.8 main
+
+# ec 1.5.2 Desktop Runtime (22w43a)
+# This is only meant for low level debug purposes,
+# https://github.com/eaglerarchive/eaglercraft-1.5.2-desktopruntime main
+
+# Precision Client
+# A custom ec client with QOL features, custom texture packs, and more.
+# https://github.com/eaglerarchive/PrecisionClient-1.5.2 main
+
+# eaglercraft-beta1.3 (Repository unavailable due to DMCA takedown.)
+# https://github.com/eaglerarchive/eaglercraft-beta1.3 main
+
+
+
+# ec-22w43a (Minecraft 1.5.2)
+https://github.com/ekoerp1/eaglercraft-1.15-Final-Release main
+
+# ekoerp1-ec-21m12-24 (Minecraft 1.5.2)
+https://github.com/ekoerp1/eaglecraft main
+
+# ec server example
+# https://github.com/ekoerp1/eagleserver main
+
+
+
+# replit ec server
+# https://github.com/EnderKingJ/eaglercraft-server-1 main
