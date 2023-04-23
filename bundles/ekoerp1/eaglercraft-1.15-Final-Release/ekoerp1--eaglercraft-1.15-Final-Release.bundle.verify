@@ -1,0 +1,8 @@
+The bundle contains these 4 refs:
+7bdffddff04cfd905b305a8d3d54b21a142351aa refs/heads/main
+7bdffddff04cfd905b305a8d3d54b21a142351aa refs/remotes/origin/HEAD
+7bdffddff04cfd905b305a8d3d54b21a142351aa refs/remotes/origin/main
+7bdffddff04cfd905b305a8d3d54b21a142351aa HEAD
+The bundle records a complete history.
+The bundle uses this hash algorithm: sha1
+ekoerp1--eaglercraft-1.15-Final-Release.bundle is okay
