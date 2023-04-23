@@ -1,0 +1,22 @@
+bundle eaglerarchive--eaglercraftx-1.8.bundle
+remote https://github.com/eaglerarchive/eaglercraftx-1.8
+branch main
+commit e9a2b12ab217b020e5be62c6876e0d7142ee6cc1
+tree 53ebabe89b1469ecfac1a6dbfda863146dd95de3
+parent a6a81774dc92c3cec3640cccd14c56d940482e23
+author sadsponge <81594937+MythicGithub@users.noreply.github.com> 1679313128 -0400
+committer GitHub <noreply@github.com> 1679313128 -0400
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsBcBAABCAAQBQJkGEjoCRBK7hj4Ov3rIwAAK0sIAJ6U5UgoNixLujK23/SPez1l
+ JwgYI/7LgyWYdYcEpVFVXGEP+HmnndGWmuEnRO5KI1ePfqZ06sU/S5RBhw7Z0psD
+ YfpMD5TzyocXSnT/6qjMTU4lLLixcae7wc0nP3ewITt6lIcQHiWLgqzBQojuif9N
+ hZctqciIWhNwAcYupDfy9Im++VY67YS/ryuW5B/lSn+5elY5YhiIEZzXst7RYGcb
+ EQyo9tHgae+u+B2iASXgVmTtyM8XI4uCaoDTD0l5xo2UIFeGSMbK6Bv0x/1c04c3
+ 73dwXioVeadEMOfG55XYIrrBx3Gb6+4AILNEf2WD1wn4tLEY87kdCUwFbxh+5f0=
+ =ZEIT
+ -----END PGP SIGNATURE-----
+ 
+
+    Delete EaglerXBungee-Latest.jar
+
