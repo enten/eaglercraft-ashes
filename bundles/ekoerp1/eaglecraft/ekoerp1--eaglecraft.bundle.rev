@@ -1,0 +1,22 @@
+bundle ekoerp1--eaglecraft.bundle
+remote https://github.com/ekoerp1/eaglecraft
+branch main
+commit adeb7f6bb835132a32dfb1f37e7adebd5534fd04
+tree 2344ef331dcb895b4dbbdd9f40404a56a55c4e3e
+parent 25242371396b2882f4b3a1cf98cbafbd76e92cca
+author doomslayerwithabfg <97183226+doomslayerwithabfg@users.noreply.github.com> 1641399955 -0500
+committer GitHub <noreply@github.com> 1641399955 -0500
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsBcBAABCAAQBQJh1caTCRBK7hj4Ov3rIwAA/JsIAEn1k+diSvYGkpe0qBbfMDma
+ 5UUw9UzdU74W1Hir95KaS85lt383BdQY78zrIEmLsmKUAm6FEY0ze3wtkaiFGxL6
+ 5vDdH+U0uoeha9DCWxE34uMTnhnhA6WoZVEJOFFMiK3TQkKsiP2PghdT0rXZK21U
+ a483qaGVP7jPXWkXJHGGP2AqNET84/oOvxRmMXxHed9v4sRSRxzRYWOGPm071xc/
+ zzNdy4B7qvvUZRL11RrjA/6tHHdJHqyreQWwrR6Gjuar176/36OFNlX7VwXcMyjM
+ X+V5Mi9qSwjHkcCv6a6CqLR51aw47fPuNPS3A1y/wo/+3jWlonCqr/CjU0DIdoc=
+ =fVue
+ -----END PGP SIGNATURE-----
+ 
+
+    Add files via upload
+
