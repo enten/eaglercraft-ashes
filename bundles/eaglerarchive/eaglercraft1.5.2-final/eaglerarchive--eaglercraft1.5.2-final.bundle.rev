@@ -1,0 +1,12 @@
+bundle eaglerarchive--eaglercraft1.5.2-final.bundle
+remote https://github.com/eaglerarchive/eaglercraft1.5.2-final
+branch main
+commit f379bca3556b11e10f1ec3414f35ca0f5571ff57
+tree 2a7bcca5f26295ab2649934b1a4855db4493b2ff
+author sadsponge <81594937+MythicGithub@users.noreply.github.com> 1667694806 -0400
+committer sadsponge <81594937+MythicGithub@users.noreply.github.com> 1667694806 -0400
+
+    final update of 1.5.2
+    
+    final update of 1.5.2
+
