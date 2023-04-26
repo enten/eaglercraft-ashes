@@ -11,15 +11,20 @@ if (cliMissingArg) {
   process.exit(1);  
 }
 
-const GH_USER_CONTENT_BASE_URL = 'https://media.githubusercontent.com/media/enten/eaglercraft-ashes/main';
-
 const MAP_OF_VERSIONS = {
   'Eaglercraft 22w43a (Minecraft 1.5.2)': ['eaglerarchive/eaglercraft1.5.2-final', 'ekoerp1/eaglercraft-1.15-Final-Release'],
   'EaglercraftX u17 (Minecraft 1.8)': ['eaglerarchive/eaglercraftx-1.8'],
   'Eaglercraft 21m12-24 (Minecraft 1.5.2)': ['ekoerp1/eaglecraft'],
 };
 
-const [...revisionFiles] = argv._;
+const MAP_OF_BUNDLE_DOWNLOAD_URLS = {
+  'eaglerarchive/eaglercraft1.5.2-final': 'https://ia801606.us.archive.org/28/items/eaglerarchive--eaglercraft1.5.2-final/eaglerarchive--eaglercraft1.5.2-final.bundle',
+  'eaglerarchive/eaglercraftx-1.8': 'https://ia902609.us.archive.org/5/items/eaglerarchive--eaglercraftx-1.8/eaglerarchive--eaglercraftx-1.8.bundle',
+  'ekoerp1/eaglecraft': 'https://ia902601.us.archive.org/22/items/ekoerp1--eaglecraft/ekoerp1--eaglecraft.bundle',
+  'ekoerp1/eaglercraft-1.15-Final-Release': 'https://ia601608.us.archive.org/31/items/ekoerp1--eaglercraft-1.15-Final-Release/ekoerp1--eaglercraft-1.15-Final-Release.bundle',
+};
+
+const revisionFiles = [...argv._].sort();
 const { baseLink = '.' } = argv;
 
 const tableRows = [];
@@ -38,16 +43,14 @@ for (const revisionFile of revisionFiles) {
   }
 
   const revisionFileName = path.basename(revisionFile);
-  const bundleFileName = path.basename(bundleFile);
+  const bundleFileName = path.basename(bundleFile, '.bundle');
 
   const revisionFileAbsolute = path.posix.resolve(revisionFile);
-  const bundleFileAbsolute = path.posix.resolve(path.dirname(revisionFileAbsolute), bundleFile);
-
-  const relativeFromCwdToBundleFile = path.posix.relative('.', bundleFileAbsolute);
   const relativeFromCwdToRevisionFile = path.posix.relative('.', revisionFileAbsolute);
 
   let bundleId = bundleFileName;
   let eaglercraftVersion = '';
+  let bundleDownloadUrl = '';
 
   if (bundleRemoteUrl) {
     const repoName = path.basename(bundleRemoteUrl);
@@ -57,6 +60,8 @@ for (const revisionFile of revisionFiles) {
 
     eaglercraftVersion = Object.keys(MAP_OF_VERSIONS)
       .find(version => MAP_OF_VERSIONS[version].includes(bundleId));
+
+    bundleDownloadUrl = MAP_OF_BUNDLE_DOWNLOAD_URLS[bundleId];
   }
 
   tableRows.push(`| [${bundleId}][${bundleFileName}] \
@@ -65,9 +70,9 @@ for (const revisionFile of revisionFiles) {
 | [⏬ Download][${bundleFileName}:download] |`);
 
   linkRefs.push(
-    `[${bundleFileName}]: ${baseLink}/${relativeFromCwdToBundleFile}`,
+    `[${bundleFileName}]: https://archive.org/details/${bundleFileName}`,
     `[${revisionFileName}]: ${baseLink}/${relativeFromCwdToRevisionFile}`,
-    `[${bundleFileName}:download]: ${GH_USER_CONTENT_BASE_URL}/${relativeFromCwdToBundleFile}`,
+    ...(bundleDownloadUrl ? [`[${bundleFileName}:download]: ${bundleDownloadUrl}`] : []),
   );
 }
 

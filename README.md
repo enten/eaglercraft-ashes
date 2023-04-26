@@ -4,24 +4,24 @@
 
 | Repository | Revision | Description | |
 |-|-|-|-|
-| [eaglerarchive/eaglercraft1.5.2-final][eaglerarchive--eaglercraft1.5.2-final.bundle] | [f379bca][eaglerarchive--eaglercraft1.5.2-final.bundle.rev] | Eaglercraft 22w43a (Minecraft 1.5.2) | [⏬ Download][eaglerarchive--eaglercraft1.5.2-final.bundle:download] |
-| [eaglerarchive/eaglercraftx-1.8][eaglerarchive--eaglercraftx-1.8.bundle] | [e9a2b12][eaglerarchive--eaglercraftx-1.8.bundle.rev] | EaglercraftX u17 (Minecraft 1.8) | [⏬ Download][eaglerarchive--eaglercraftx-1.8.bundle:download] |
-| [ekoerp1/eaglecraft][ekoerp1--eaglecraft.bundle] | [adeb7f6][ekoerp1--eaglecraft.bundle.rev] | Eaglercraft 21m12-24 (Minecraft 1.5.2) | [⏬ Download][ekoerp1--eaglecraft.bundle:download] |
-| [ekoerp1/eaglercraft-1.15-Final-Release][ekoerp1--eaglercraft-1.15-Final-Release.bundle] | [7bdffdd][ekoerp1--eaglercraft-1.15-Final-Release.bundle.rev] | Eaglercraft 22w43a (Minecraft 1.5.2) | [⏬ Download][ekoerp1--eaglercraft-1.15-Final-Release.bundle:download] |
+| [eaglerarchive/eaglercraft1.5.2-final][eaglerarchive--eaglercraft1.5.2-final] | [f379bca][eaglerarchive--eaglercraft1.5.2-final.bundle.rev] | Eaglercraft 22w43a (Minecraft 1.5.2) | [⏬ Download][eaglerarchive--eaglercraft1.5.2-final:download] |
+| [eaglerarchive/eaglercraftx-1.8][eaglerarchive--eaglercraftx-1.8] | [e9a2b12][eaglerarchive--eaglercraftx-1.8.bundle.rev] | EaglercraftX u17 (Minecraft 1.8) | [⏬ Download][eaglerarchive--eaglercraftx-1.8:download] |
+| [ekoerp1/eaglecraft][ekoerp1--eaglecraft] | [adeb7f6][ekoerp1--eaglecraft.bundle.rev] | Eaglercraft 21m12-24 (Minecraft 1.5.2) | [⏬ Download][ekoerp1--eaglecraft:download] |
+| [ekoerp1/eaglercraft-1.15-Final-Release][ekoerp1--eaglercraft-1.15-Final-Release] | [7bdffdd][ekoerp1--eaglercraft-1.15-Final-Release.bundle.rev] | Eaglercraft 22w43a (Minecraft 1.5.2) | [⏬ Download][ekoerp1--eaglercraft-1.15-Final-Release:download] |
 
 _This code is released in to the public domain, and [UNLICENSED](https://unlicense.org/)._
 
 
 
-[eaglerarchive--eaglercraft1.5.2-final.bundle]: ./bundles/eaglerarchive/eaglercraft1.5.2-final/eaglerarchive--eaglercraft1.5.2-final.bundle
+[eaglerarchive--eaglercraft1.5.2-final]: https://archive.org/details/eaglerarchive--eaglercraft1.5.2-final
 [eaglerarchive--eaglercraft1.5.2-final.bundle.rev]: ./bundles/eaglerarchive/eaglercraft1.5.2-final/eaglerarchive--eaglercraft1.5.2-final.bundle.rev
-[eaglerarchive--eaglercraft1.5.2-final.bundle:download]: https://media.githubusercontent.com/media/enten/eaglercraft-ashes/main/bundles/eaglerarchive/eaglercraft1.5.2-final/eaglerarchive--eaglercraft1.5.2-final.bundle
-[eaglerarchive--eaglercraftx-1.8.bundle]: ./bundles/eaglerarchive/eaglercraftx-1.8/eaglerarchive--eaglercraftx-1.8.bundle
+[eaglerarchive--eaglercraft1.5.2-final:download]: https://ia801606.us.archive.org/28/items/eaglerarchive--eaglercraft1.5.2-final/eaglerarchive--eaglercraft1.5.2-final.bundle
+[eaglerarchive--eaglercraftx-1.8]: https://archive.org/details/eaglerarchive--eaglercraftx-1.8
 [eaglerarchive--eaglercraftx-1.8.bundle.rev]: ./bundles/eaglerarchive/eaglercraftx-1.8/eaglerarchive--eaglercraftx-1.8.bundle.rev
-[eaglerarchive--eaglercraftx-1.8.bundle:download]: https://media.githubusercontent.com/media/enten/eaglercraft-ashes/main/bundles/eaglerarchive/eaglercraftx-1.8/eaglerarchive--eaglercraftx-1.8.bundle
-[ekoerp1--eaglecraft.bundle]: ./bundles/ekoerp1/eaglecraft/ekoerp1--eaglecraft.bundle
+[eaglerarchive--eaglercraftx-1.8:download]: https://ia902609.us.archive.org/5/items/eaglerarchive--eaglercraftx-1.8/eaglerarchive--eaglercraftx-1.8.bundle
+[ekoerp1--eaglecraft]: https://archive.org/details/ekoerp1--eaglecraft
 [ekoerp1--eaglecraft.bundle.rev]: ./bundles/ekoerp1/eaglecraft/ekoerp1--eaglecraft.bundle.rev
-[ekoerp1--eaglecraft.bundle:download]: https://media.githubusercontent.com/media/enten/eaglercraft-ashes/main/bundles/ekoerp1/eaglecraft/ekoerp1--eaglecraft.bundle
-[ekoerp1--eaglercraft-1.15-Final-Release.bundle]: ./bundles/ekoerp1/eaglercraft-1.15-Final-Release/ekoerp1--eaglercraft-1.15-Final-Release.bundle
+[ekoerp1--eaglecraft:download]: https://ia902601.us.archive.org/22/items/ekoerp1--eaglecraft/ekoerp1--eaglecraft.bundle
+[ekoerp1--eaglercraft-1.15-Final-Release]: https://archive.org/details/ekoerp1--eaglercraft-1.15-Final-Release
 [ekoerp1--eaglercraft-1.15-Final-Release.bundle.rev]: ./bundles/ekoerp1/eaglercraft-1.15-Final-Release/ekoerp1--eaglercraft-1.15-Final-Release.bundle.rev
-[ekoerp1--eaglercraft-1.15-Final-Release.bundle:download]: https://media.githubusercontent.com/media/enten/eaglercraft-ashes/main/bundles/ekoerp1/eaglercraft-1.15-Final-Release/ekoerp1--eaglercraft-1.15-Final-Release.bundle
+[ekoerp1--eaglercraft-1.15-Final-Release:download]: https://ia601608.us.archive.org/31/items/ekoerp1--eaglercraft-1.15-Final-Release/ekoerp1--eaglercraft-1.15-Final-Release.bundle

@@ -2,9 +2,13 @@
 
 await cd(path.resolve(__dirname, '..'));
 
-const bundlesLines = await $`cat scripts/bundles.txt`
-  .pipe($`grep -Ev "^[[:space:]]*(#|$)"`)
-  .then(({ stdout }) => stdout.split(/\r?\n/).filter(Boolean));
+const [
+  bundlesFile = path.join(__dirname, 'bundles.txt'),
+] = argv._;
+
+const bundlesTxt = await fs.readFile(bundlesFile, 'utf-8');
+const bundlesLines = bundlesTxt.split(/\r?\n/)
+  .filter(line => line.trim().length && line.trimStart()[0] !== '#');
 
 const bundles = bundlesLines.map(bundleTxtLine => {
   const [repoUrl, repoBranch = 'main'] = bundleTxtLine.split(' ', 2);
@@ -44,7 +48,7 @@ for (const bundle of bundles) {
     .then(({ stdout }) => stdout.trim());
 
   if (argv.commit) {
-    await $`git add ${[bundleFile, verifyFile, revisionFile]}`;
+    await $`git add ${[verifyFile, revisionFile]}`;
     await $`git diff-index --quiet HEAD || git commit -m "update ${repoId} ${bundleCommitId.slice(0, 7)}"`;
   }
 }
