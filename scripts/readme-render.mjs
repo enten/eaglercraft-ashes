@@ -18,10 +18,10 @@ const MAP_OF_VERSIONS = {
 };
 
 const MAP_OF_BUNDLE_DOWNLOAD_URLS = {
-  'eaglerarchive/eaglercraft1.5.2-final': 'https://ia801606.us.archive.org/28/items/eaglerarchive--eaglercraft1.5.2-final/eaglerarchive--eaglercraft1.5.2-final.bundle',
-  'eaglerarchive/eaglercraftx-1.8': 'https://ia902609.us.archive.org/5/items/eaglerarchive--eaglercraftx-1.8/eaglerarchive--eaglercraftx-1.8.bundle',
-  'ekoerp1/eaglecraft': 'https://ia902601.us.archive.org/22/items/ekoerp1--eaglecraft/ekoerp1--eaglecraft.bundle',
-  'ekoerp1/eaglercraft-1.15-Final-Release': 'https://ia601608.us.archive.org/31/items/ekoerp1--eaglercraft-1.15-Final-Release/ekoerp1--eaglercraft-1.15-Final-Release.bundle',
+  'eaglerarchive/eaglercraft1.5.2-final': 'https://download1509.mediafire.com/v8auquehqxvgPpckH20FZsX9vTL62PuVC4ymhqw-hq0-za_USE6hBVUS3Q0XUlJHMzzl86RwFQaIuTHImmwsnzA8VhcNtwc9FHvwbdYXGl8HLj1kXZcERr2Gt0H3eDUWjiyyJV8M6-ACenG0AL0xg61Oq2ADCd8s6Q5oawEF35_7/blfzzv650rbjjvz/eaglerarchive--eaglercraft1.5.2-final.bundle',
+  'eaglerarchive/eaglercraftx-1.8': 'https://download1477.mediafire.com/s8647n51kifg8wjzMaJIOeFb9xnrkaFKHaiIfVUtA2Rx8dEjeuhrtKgV1NnPdwXVSns0zotsOJXvYoS_38FWLM7LwUWl-6x6SC5FpcnZSSOoCGeWo_v4xfopI0rh3WfRkcW4LacGejZCQ50URobiOpo3F5luwzZ1eVd5Y_TEl3M0/r5o5ke0v57cw8yd/eaglerarchive--eaglercraftx-1.8.bundle',
+  'ekoerp1/eaglecraft': 'https://download944.mediafire.com/l7ru7u6yhz9gMX83EWPrZC-Ml8z43tLTSOiQyqFbnk8oWURtDcBeSAiMBnB50OdCCOU7F1FxR8Ae391WRDWG4brBEK0bG84ceE1H-VV5xE1dU6frlTvek3o0W7yAtCSGZ3tHo5vY0OdFVkuJOt9__m74NjRdicFZGMGHy5fhIxsd/22s208jb86g3j55/ekoerp1--eaglecraft.bundle',
+  'ekoerp1/eaglercraft-1.15-Final-Release': 'https://download1585.mediafire.com/qqbm9xx47mdgAxghZ3WPE5v7CSGWAz7HlSd-b-zI8VRI4ZSLEL6aXWif1jfVoph9OEWzfZwjtpsqbODYoJaQaw8ssw88FSxPyxIRboI6Te6vEJYxulYbM4XYo4FrKYMGArAKl62w7PtORbRZsAuzwFUeSUhiv7Lseektxf2JWN4Q/unh0d5zh8ovg1v6/ekoerp1--eaglercraft-1.15-Final-Release.bundle',
 };
 
 const revisionFiles = [...argv._].sort();
@@ -70,7 +70,7 @@ for (const revisionFile of revisionFiles) {
 | [⏬ Download][${bundleFileName}:download] |`);
 
   linkRefs.push(
-    `[${bundleFileName}]: https://archive.org/details/${bundleFileName}`,
+    `[${bundleFileName}]: ${bundleRemoteUrl}`,
     `[${revisionFileName}]: ${baseLink}/${relativeFromCwdToRevisionFile}`,
     ...(bundleDownloadUrl ? [`[${bundleFileName}:download]: ${bundleDownloadUrl}`] : []),
   );
